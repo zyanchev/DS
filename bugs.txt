@@ -1,0 +1,230 @@
+BUG: 1
+
+Title: The links in the footer are not working and not clickable
+
+Description: The following links are not working: components, pricing, updates, discord, youtube and instagram.
+
+Please watch the video: https://recordit.co/VLF2NILTLN
+
+Steps to reproduce:
+
+1. Open the website.
+
+2. Scroll down to the bottom of the page.
+
+3. Click on any of the following links: components, pricing, updates, discord, youtube and instagram.
+
+Actual result: Links are not working and not clickable.
+
+Expected result: The links should redirects to the specific website or application they are related to.
+
+
+BUG: 2
+
+Title: On the 'Many types of components to customize' section the 'Visit' button on all of the cards is not working and not clickable
+
+Description: The 'Visit' button on all of the cards is not working and is not clickable.
+
+Please watch the video: https://recordit.co/eMdqYqK0Wb
+
+Steps to reproduce:
+
+1. Open the website.
+
+2. Scroll down to the middle of the page.
+
+3. Click the 'Visit' button on any of the cards.
+
+Actual result: The 'Visit' button is not clickable and not working.
+
+Expected result: The 'Visit' button should be clickable and should redirects to the section of the card.
+
+
+BUG: 3
+
+Title: Switching between the tabs causes the ui to autamaticaly selects any text while mouse hovering
+
+Description: After switching between the following tabs: Components, Pricing and Updates the UI autamaticaly selects any text while we are hovering with the mouse over it.
+
+Note: This behavior is only valid from FireFox browser.
+
+Please watch the video: https://recordit.co/JHww3YOw4f
+
+Steps to reproduce:
+
+1. Open the website.
+
+2. Click on the 'Pricing' tab.
+
+3. Move the mouse over any text.
+
+Actual result: The UI autamaticaly selects any text while mouse hovering.
+
+Expected result: The page should be loaded successfully and the UI should not autamaticaly selects any text while mouse hovering.
+
+
+BUG: 4
+
+Title: On the main page the 'Watch Videon' button is not working
+
+Description: The 'Watch Video' button is clickable but does not open the video related to 'Mix 3D and 2D design with Framer'.
+
+Please watch the video: https://recordit.co/sDXWnBW5C6
+
+Steps to reproduce:
+
+1. Open the website.
+
+2. Click on the 'Watch Video' button.
+
+Actual result: The 'Watch Video' button is clickable but does not open the video related to 'Mix 3D and 2D design with Framer'.
+
+Expected result: The 'Watch Video' button should works correctly and it should opens the video related to 'Mix 3D and 2D design with Framer'.
+
+
+BUG: 5
+
+Title: 'Terms' and 'Privacy Policy' in the footer are not working
+
+Description: There is no mouse pointer on the 'Terms' and 'Privacy Policy' links and they are not working.
+
+Please watch the video: https://recordit.co/RFCHSrkFHd
+
+Steps to reproduce:
+
+1. Open the website.
+
+2. Scroll down to the bottom of the page.
+
+3. Click on 'Terms' or 'Privacy Policy' links.
+
+Actual result: There is no mouse pointer on the 'Terms' and 'Privacy Policy' links and they are not working.
+
+Expected result: There should be a mouse pointer after hovering over the 'Terms' and 'Privacy Policy' links. The links should works successfully and they should redirect to the 'Terms' or the 'Privacy Policy' sections.
+
+
+
+BUG: 6
+
+Title: Not able to select any of the subscription plans
+
+Description: The 'Try for free' button for the first plan and the 'Subscribe' buttons for the rest of the plans are not working and I am not able to select any of the plans.
+
+Note: The first subscription plan's button says 'Try for free' but there is a price of 15$ per month.
+
+Please watch the video: https://recordit.co/ydF0NK4ffL
+
+Steps to reproduce:
+
+1. Open the website.
+
+2. Click on the 'Pricing' tab.
+
+3. Click 'Try for free' or any of the two 'Subscribe' buttons.
+
+Actual result: The 'Try for free' and the two 'Subscribe' buttons are not working and the user is not able to select any subscription plan.
+
+Expected result: The 'Try for free' and the two 'Subscribe' buttons should be clickable and should be working and the user should be able to select any of the subscription plans.
+
+
+BUG: 7
+
+Title: On the 'Components' page the 'GET THE APP' button but is not working
+
+Description: The 'GET THE APP' button is clickable but does not opens the 'Sign Up' modal(if the user is not logged in) or redirects to the section from where the user can get the APP.
+
+Please watch the video: https://recordit.co/AipwGWq1GE
+
+Steps to reproduce:
+
+1. Open the website.
+
+2. Click on the 'Components' tab.
+
+2. Click on the 'GET THE APP' button.
+
+Actual result: The 'GET THE APP' button is clickable but does not opens the 'Sign Up' modal(if the user is not logged in) or it should redirects to the section from where the user can get the APP.
+
+Expected result: The 'GET THE APP' button should works correctly and it should opens the 'Sign Up' modal(if the user is not logged in) or it should redirects to the section from where the user can get the APP.
+
+
+BUG: 8
+
+
+Title: On the 'Sign Up' modal after entering a password in the input field the password is visible.
+
+Description: On the 'Sign Up' modal the passoword is visible instead of asterisks.
+
+Please watch the video: recordit.co/DiI9emDa4A
+
+Steps to reproduce:
+
+1. Open the website.
+
+2. Click on the 'Sign Up' button on the top right corrner of the page.
+
+3. On the 'Sign Up' modal enter a possword.
+
+Actual result: After entering a password in the input field the password is visible.
+
+Expected result: After entering a password in the input field the password should not be visible it should be displayed as asterisks.
+
+
+
+BUG: 9
+
+
+Title: Not able to 'Sign Up'
+
+Description: The 'Sign Up' functionality is not working.
+
+Note: This behavior is only valid from FireFox browser.
+
+Please watch the video: https://recordit.co/vKVRSFHsl0
+
+Steps to reproduce:
+
+1. Open the website.
+
+2. Click on the 'Sign Up' button on the top right corrner of the page.
+
+3. Enter an email adress in the 'Email' input field.
+
+4. Enter a password in the 'Password' input field.
+
+5. Click on the 'Sign Up' button.
+
+
+Actual result: The UI keep showing the 'Please enter an email adress.' validation message and I am not able to sign up. 
+
+Expected result: The user should be able to sing up successfully when an suitable email address and password are entered on the 'Sign Up' modal.
+
+
+BUG: 10
+
+Title: There is a burger menu which is only visible on Responsive Design Mode
+
+Description: There is a burger menu with options which is only visible on Responsive Design Mode.
+
+Please watch the video: https://recordit.co/zp5NFCWd1D
+
+Steps to reproduce:
+
+1. Open the website.
+
+2. Click on the arrow icon on the top left corrner of the page.
+
+3. Verify that nothing happens.
+
+4. Press 'F12' keyboard key to open the browser dev tool.
+
+5. Click on the 'Responsive Design Mode' mode icon on the top right corner of the Dev tool or press "CTRL + Shift + M"
+
+6. Verify the arrow icon on the top left corrner of the page is changed to burger icon.
+
+7. Click on the icon.
+
+
+Actual result: There is a burger menu which is only visible on Responsive Design Mode.
+
+Expected result: The user should be able to see the burger menu without switching on 'Responsive Design Mode' and should be able to use the options in it.

@@ -1,0 +1,79 @@
+1. Does display "Components, Pricing, Updates, Discord, Youtube and Instagram"
+ icon links in the footer of the main page
+
+- Given the Framer site is loaded
+- And I scroll to the bottom of the main page
+- Then I see "Components, Pricing, Updates, Discord, Youtube and Instagram" icon links
+
+2. Does display 4 comments in 'How students learned from our courses' section  from the 'Pricing' page
+
+- Given the Framer site is loaded
+- When I click on 'Pricing' button
+- And I see the Pricing Page
+- Then I see the 'How students learned from our courses' section contains 4 comments
+
+
+3. Does the 'Email' input field can be filled with an email adress in the 'subscribe to our newsletter' section
+
+- Given the Framer site is loaded
+- And I scroll to the bottom of the main page
+- Then I see 'subscribe to our newsletter' section
+- Then I see email input field
+- Then I type an email adress
+
+4. Does the back 'arrow' button redirects to the main page
+
+- Given the Framer site is loaded
+- Then I see the back 'arrow' button on the top left corner of the page
+- And I see the Pricing Page tab
+- When I click on the Pricing Page tab
+- And I see the Pricing Page
+- Then I see the back 'arrow' button on the top left corner of the page
+- When I click the back 'arrow' button on the top left corner of the page
+- Then I see the main page
+
+5. Does display "Sign Up" button on the top right corner of the page
+
+- Given the Framer site is loaded
+- Then I see "Sign Up" button on the top right corner of the page
+- When I click the "Sign Up"
+- Then I see the "Sign Up" page
+
+6. Does the 'Email' input field can be filled with email adress in the "Sign Up" page
+
+- Given the Framer site is loaded
+- Then I see "Sign Up" button on the top right corner of the page
+- When I click the "Sign Up"
+- Then I see the "Sign Up" page
+- Then I see 'Email' input field
+- Then I type an email adress
+
+7. Does the 'Password' input field can be filled with password in the "Sign Up" page
+
+- Given the Framer site is loaded
+- And I see "Sign Up" button on the top right corner of the page
+- When I click the "Sign Up"
+- Then I see the "Sign Up" page
+- And I see 'Password' input field
+- Then I type password
+
+8. Does display the 'Components, Pricing and Updates' tabs.
+
+- Given the Framer site is loaded
+- Then I see 'Components, Pricing and Updates' tabs.
+
+9. Does contain 3 subscription plans in the subscription section from the 'Pricing' page
+
+- Given the Framer site is loaded
+- When I click on 'Pricing' button
+- And I see the Pricing Page
+- Then I see the subscription section contains 3 subscription plans
+
+10. Does display 'Email' and 'Password' box-shadow as "rgb(238, 68, 68) 0px 0px 0px 1px inset"
+- Given the Framer site is loaded
+- Then I see "Sign Up" button on the top right corner of the page
+- When I click the "Sign Up"
+- Then I see the "Sign Up" page
+- And I see the "Sign Up" form
+- When I click the "Sign Up" button
+- Then I see 'Email' and 'Password' box-shadow as "rgb(238, 68, 68) 0px 0px 0px 1px inset"
