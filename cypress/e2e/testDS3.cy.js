@@ -2,10 +2,11 @@ it("Does display 'visit' button on each card in the 'Many types of components to
 
     cy.visit('https://mind-wend-913065.framer.app/')
 
-    cy.scrollTo(0, 1500)
+    cy.get('[data-framer-name="Section"]').scrollIntoView()
 
     cy.get('[data-framer-name="Section"] [data-framer-name*="Card"]').should("be.visible").each(($el) => {
         cy.wrap($el.text())
             .should('contains', 'Visit')
     })
+
 })
