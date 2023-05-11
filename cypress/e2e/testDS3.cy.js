@@ -4,21 +4,8 @@ it("Does display 'visit' button on each card in the 'Many types of components to
 
     cy.scrollTo(0, 1500)
 
-    cy.get('.components-container')
-        .should('be.visible')
-
-    cy.get('.framer-1w9oj9t')
-        .should('be.visible')
-
-    cy.get('.framer-xgqu5n')
-        .should('be.visible')
-
-    cy.get('.framer-16u1l33')
-        .should('be.visible')
-
-    cy.get('.framer-1ddbpjz')
-        .should('be.visible')
-
-    cy.get('.framer-1s9w9eh')
-        .should('be.visible')
+    cy.get('[data-framer-name="Section"] [data-framer-name*="Card"]').should("be.visible").each(($el) => {
+        cy.wrap($el.text())
+            .should('contains', 'Visit')
+    })
 })
